@@ -160,9 +160,16 @@ li::marker {
     text-decoration: none;
     transition-property: background-color, border-color, color, opacity;
 }
+.link-button.primary {
+    background-color: rgba(255, 231, 204, 1);
+    color: rgba(17, 29, 51, 1);
+}
 
 .link-button:visited {
     color: rgba(255, 231, 204, 1);
+}
+.link-button.primary:visited {
+    color: rgba(17, 29, 51, 1);
 }
 
 .link-button-group {
@@ -201,6 +208,10 @@ li::marker {
         background-color: rgba(255, 231, 204, 0.1);
         border-color: rgba(255, 231, 204, 1);
         color: rgba(255, 231, 204, 1);
+    }
+    .link-button.primary:hover {
+        background-color: rgba(255, 231, 204, 1);
+        color: rgba(17, 29, 51, 1);
     }
 }
 
